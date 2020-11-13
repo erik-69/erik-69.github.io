@@ -1,0 +1,27 @@
+html, body{
+    height: 100%;
+    background-color: blueviolet;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(rgba(35, 9, 97, 0.8),rgba(221, 218, 19, 0.7)), url(../img/otoño.jpg);
+    background-size: cover;
+}
+
+.container{
+    height: 80%;
+    overflow-y: scroll;
+}
+
+.btn-primary{
+    background: mediumspringgreen;
+}
+
+a .fab{
+    color: #000;
+    font-size: 35px;
+    margin: 0 15px;
+    color: rgb(47, 51, 38);
+}
