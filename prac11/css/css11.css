@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+    padding-top: 2em;
+}
+.principal{
+
+    background-color: olive;
+    max-width: 80%;
+    min-height: 500px;
+    margin: auto;
+    padding-top: 10px; 
+}
+
+.menu{
+    text-decoration: none;
+    background-color: #c0c0c0;
+}
+
+.menu li{
+    display: inline;
+}
+
+.menu ul, .menu li{
+list-style: none;
+float: left;
+padding-left: 2em;
+color: yellow;
+}
+
+.menu li a{
+    color: white;
+}
+
+.menu li a:hover{
+    text-decoration: none;
+    color: black;
+    font-size: small;
+    background-color: cornflowerblue;
+}
